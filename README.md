@@ -6,4 +6,4 @@ Enable Cozmo's SDK mode from the mobile app and then run `python cvc.py` from th
 
 An example of what you can say to Cozmo -
 
-`Cozmo Drive Forward for 3 seconds, THEN turn right 73 degrees, THEN identify`
+`Cozmo drive forward for 3 seconds, THEN turn right 73 degrees, THEN identify`
