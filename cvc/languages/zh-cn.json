@@ -1,0 +1,29 @@
+{
+    "id":5,
+    "name":"Chinese(simplified)",
+    "lang":"zh",
+    "lang_ext":"zh-CN",
+    "separator":"然后",
+    "instructions":"你可以向Cozmo发出语音命令. 使用'然后'来连接多条命令.\n支持的命令如下:",
+    "text_wait":"\n 当你准备说话时，按下 <SHIFT>",
+    "text_say":"\n 请说你的命令 (超时时长: 5 秒 - 按 ctrl+c 退出)",
+    "error_one":"抱歉我没听懂, 支持的命令如下:",
+    "error_all":"抱歉我没听懂, 支持的命令如下:",
+    "commands":
+    [
+        {"action":"forward", "words":["前进", "前"], "usage":"Cozmo 往前走 X 秒."},
+        {"action":"backward", "words":["后退","后"], "usage":"Cozmo 往后退 X 秒."},
+        {"action":"right", "words":["右"], "usage":"Cozmo 往右转 X 度, 默认 90 度."},
+        {"action":"left", "words":["左"], "usage":"Cozmo turns left X degrees, or 90 degrees if no argument."},
+        {"action":"lift", "words":["举","胳膊"], "usage":"Cozmo 将胳膊往上抬 X 度 (最小:0, 最大:100)."},
+        {"action":"head", "words":["头"], "usage":"Cozmo 将头抬起 X 度 (最小:0, 最大:100)."},
+        {"action":"look", "words":["看","寻找"], "usage":"Cozmo 寻找附近有没有人（脸）."},
+        {"action":"follow", "words":["跟踪","追踪"], "usage":"Cozmo 追踪人脸."},
+        {"action":"picture", "words":["拍照","照片","照"], "usage":"Cozmo 拍一张照片, 它将在当前目录保存一张照片."},
+        {"action":"what_is_this", "words":["什么"], "usage":"cozmo 这是什么, 之后他会告诉你."},
+        {"action":"say", "words":["说"], "usage":"Cozmo 说 X (目前得是英语，todo:自动翻译)."},
+        {"action":"blocks", "words":["积木","玩耍"], "usage":"Cozmo 玩耍积木."},
+        {"action":"dance", "words":["跳舞"], "usage":"Cozmo 跳舞."},
+        {"action":"charger", "words":["充电器","家"], "usage":"Cozmo 回家."}
+    ]
+}
